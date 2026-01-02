@@ -6,14 +6,20 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		157F80E72F07899E00080C76 /* AppFeature in Frameworks */ = {isa = PBXBuildFile; productRef = 157F80E62F07899E00080C76 /* AppFeature */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		157F80E42F07891500080C76 /* MarkerWalker */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = MarkerWalker; path = ../MarkerWalker; sourceTree = SOURCE_ROOT; };
 		158FC4702F064599007AFC37 /* MarkerWalker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarkerWalker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15A0AF362F07834900DFBE12 /* MarkerWalker.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = MarkerWalker.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		158FC4722F064599007AFC37 /* Source */ = {
+		158FC4722F064599007AFC37 /* iOS */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Source;
+			path = iOS;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -23,16 +29,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				157F80E72F07899E00080C76 /* AppFeature in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		157F80E52F07899E00080C76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		158FC4672F064599007AFC37 = {
 			isa = PBXGroup;
 			children = (
-				158FC4722F064599007AFC37 /* Source */,
+				157F80E42F07891500080C76 /* MarkerWalker */,
+				158FC4722F064599007AFC37 /* iOS */,
+				157F80E52F07899E00080C76 /* Frameworks */,
 				158FC4712F064599007AFC37 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -42,6 +58,11 @@
 			children = (
 				158FC4702F064599007AFC37 /* MarkerWalker.app */,
 			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15A0AF372F07834900DFBE12 /* Products */ = {
+			isa = PBXGroup;
 			name = Products;
 			sourceTree = "<group>";
 		};
@@ -61,10 +82,11 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				158FC4722F064599007AFC37 /* Source */,
+				158FC4722F064599007AFC37 /* iOS */,
 			);
 			name = MarkerWalker;
 			packageProductDependencies = (
+				157F80E62F07899E00080C76 /* AppFeature */,
 			);
 			productName = MarkerWalker;
 			productReference = 158FC4702F064599007AFC37 /* MarkerWalker.app */;
@@ -97,6 +119,12 @@
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 158FC4712F064599007AFC37 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 15A0AF372F07834900DFBE12 /* Products */;
+					ProjectRef = 15A0AF362F07834900DFBE12 /* MarkerWalker.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				158FC46F2F064599007AFC37 /* MarkerWalker */,
@@ -328,6 +356,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		157F80E62F07899E00080C76 /* AppFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AppFeature;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 158FC4682F064599007AFC37 /* Project object */;
 }

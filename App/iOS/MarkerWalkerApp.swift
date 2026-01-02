@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import AppFeature
 
 @main
 struct MarkerWalkerApp: App {
