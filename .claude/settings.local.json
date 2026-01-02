@@ -5,7 +5,8 @@
       "Bash(tree:*)",
       "Bash(cat:*)",
       "WebFetch(domain:raw.githubusercontent.com)",
-      "Bash(ls:*)"
+      "Bash(ls:*)",
+      "Bash(echo:*)"
     ],
     "deny": [],
     "ask": []

@@ -76,6 +76,7 @@
 				158FC46C2F064599007AFC37 /* Sources */,
 				158FC46D2F064599007AFC37 /* Frameworks */,
 				158FC46E2F064599007AFC37 /* Resources */,
+				15F0C8D92F07BB5B00BC17B0 /* SwiftLint */,
 			);
 			buildRules = (
 			);
@@ -141,6 +142,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		15F0C8D92F07BB5B00BC17B0 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# PATH設定を追加（Homebrewなど）\nexport PATH=\"/opt/homebrew/bin:/usr/local/bin:$PATH\"\n\n# プロジェクトルートに移動（.swiftlint.ymlがあるディレクトリ）\ncd \"$SRCROOT/..\"\n\n# Mintが利用可能か確認して実行\nif command -v mint >/dev/null 2>&1; then\n  mint run swiftlint lint --strict\nelse\n  echo \"warning: Mint not installed, download from https://github.com/yonaskolb/Mint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		158FC46C2F064599007AFC37 /* Sources */ = {
