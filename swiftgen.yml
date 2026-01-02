@@ -1,0 +1,9 @@
+strings:
+  inputs:
+    - MarkerWalker/Sources/AppResources/Resources/ja.lproj/Localizable.strings
+  outputs:
+    - templateName: structured-swift5
+      output: MarkerWalker/Sources/AppResources/Generated/Strings.swift
+      params:
+        enumName: L10n
+        publicAccess: true

@@ -1,0 +1,7 @@
+# SwiftGenで生成されたファイルを除外
+**/Generated/
+
+# ビルド成果物
+.build/
+.swiftpm/
+DerivedData/

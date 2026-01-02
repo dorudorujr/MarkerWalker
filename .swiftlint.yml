@@ -9,6 +9,7 @@ excluded:
   - App/DerivedData
   - MarkerWalker/.build
   - MarkerWalker/.swiftpm
+  - MarkerWalker/Sources/AppResources/Generated  # SwiftGenで生成されたファイルを除外
 
 # Paths to include (optional, by default all Swift files are included)
 included:
