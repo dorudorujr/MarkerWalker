@@ -5,6 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "MarkerWalker",
+    defaultLocalization: "ja",
     platforms: [.iOS(.v18)],
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
@@ -12,12 +13,21 @@ let package = Package(
             name: "AppFeature",
             targets: ["AppFeature"]
         ),
+        .library(
+            name: "AppResources",
+            targets: ["AppResources"]
+        ),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
         .target(
-            name: "AppFeature"
+            name: "AppFeature",
+            dependencies: ["AppResources"]
+        ),
+        .target(
+            name: "AppResources",
+            resources: [.process("Resources")]
         ),
 
     ]
