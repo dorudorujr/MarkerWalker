@@ -77,6 +77,7 @@
 				158FC46D2F064599007AFC37 /* Frameworks */,
 				158FC46E2F064599007AFC37 /* Resources */,
 				15F0C8D92F07BB5B00BC17B0 /* SwiftLint */,
+				15F0C8E02F07C77700BC17B0 /* swift-format */,
 			);
 			buildRules = (
 			);
@@ -162,6 +163,25 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "# PATH設定を追加（Homebrewなど）\nexport PATH=\"/opt/homebrew/bin:/usr/local/bin:$PATH\"\n\n# プロジェクトルートに移動（.swiftlint.ymlがあるディレクトリ）\ncd \"$SRCROOT/..\"\n\n# Mintが利用可能か確認して実行\nif command -v mint >/dev/null 2>&1; then\n  mint run swiftlint lint --strict\nelse\n  echo \"warning: Mint not installed, download from https://github.com/yonaskolb/Mint\"\nfi\n";
+		};
+		15F0C8E02F07C77700BC17B0 /* swift-format */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "swift-format";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Apple公式のswift-formatを使用\n# Xcode 16に統合済みのため追加インストール不要\n\n# プロジェクトルートに移動（.swift-formatがあるディレクトリ）\ncd \"$SRCROOT/..\"\n\n# swift-formatでLint実行\nxcrun swift-format format --in-place --recursive MarkerWalker/Sources App/iOS\n\n# エラーコードを確認して警告として表示\nif [ $? -ne 0 ]; then\n  echo \"warning: swift-format found formatting issues. Run 'xcrun swift-format format --in-place --recursive .' to fix.\"\nfi\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
