@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1"
+     creator="MarkerWalker Dev"
+     xmlns="http://www.topografix.com/GPX/1/1"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+
+  <!-- 東京駅丸の内口 → KITTE → 皇居外苑 → 和田倉噴水公園 → 東京駅丸の内北口 -->
+  <!-- 50 waypoints, 5-second intervals -->
+
+  <!-- Segment 1: 東京駅丸の内口 → KITTE (points 1-8) -->
+  <wpt lat="35.68120" lon="139.76710">
+    <name>東京駅丸の内口</name>
+    <time>2026-02-15T10:00:00Z</time>
+  </wpt>
+  <wpt lat="35.68097" lon="139.76679">
+    <time>2026-02-15T10:00:05Z</time>
+  </wpt>
+  <wpt lat="35.68074" lon="139.76647">
+    <time>2026-02-15T10:00:10Z</time>
+  </wpt>
+  <wpt lat="35.68051" lon="139.76616">
+    <time>2026-02-15T10:00:15Z</time>
+  </wpt>
+  <wpt lat="35.68029" lon="139.76585">
+    <time>2026-02-15T10:00:20Z</time>
+  </wpt>
+  <wpt lat="35.68006" lon="139.76553">
+    <time>2026-02-15T10:00:25Z</time>
+  </wpt>
+  <wpt lat="35.67983" lon="139.76522">
+    <time>2026-02-15T10:00:30Z</time>
+  </wpt>
+  <wpt lat="35.67960" lon="139.76490">
+    <name>KITTE</name>
+    <time>2026-02-15T10:00:35Z</time>
+  </wpt>
+
+  <!-- Segment 2: KITTE → 皇居外苑 (points 9-23, west along 行幸通り) -->
+  <wpt lat="35.67960" lon="139.76446">
+    <time>2026-02-15T10:00:40Z</time>
+  </wpt>
+  <wpt lat="35.67960" lon="139.76402">
+    <time>2026-02-15T10:00:45Z</time>
+  </wpt>
+  <wpt lat="35.67960" lon="139.76358">
+    <time>2026-02-15T10:00:50Z</time>
+  </wpt>
+  <wpt lat="35.67960" lon="139.76314">
+    <time>2026-02-15T10:00:55Z</time>
+  </wpt>
+  <wpt lat="35.67960" lon="139.76270">
+    <time>2026-02-15T10:01:00Z</time>
+  </wpt>
+  <wpt lat="35.67960" lon="139.76226">
+    <time>2026-02-15T10:01:05Z</time>
+  </wpt>
+  <wpt lat="35.67960" lon="139.76182">
+    <time>2026-02-15T10:01:10Z</time>
+  </wpt>
+  <wpt lat="35.67960" lon="139.76138">
+    <time>2026-02-15T10:01:15Z</time>
+  </wpt>
+  <wpt lat="35.67960" lon="139.76094">
+    <time>2026-02-15T10:01:20Z</time>
+  </wpt>
+  <wpt lat="35.67960" lon="139.76050">
+    <time>2026-02-15T10:01:25Z</time>
+  </wpt>
+  <wpt lat="35.67960" lon="139.76006">
+    <time>2026-02-15T10:01:30Z</time>
+  </wpt>
+  <wpt lat="35.67960" lon="139.75962">
+    <time>2026-02-15T10:01:35Z</time>
+  </wpt>
+  <wpt lat="35.67960" lon="139.75918">
+    <time>2026-02-15T10:01:40Z</time>
+  </wpt>
+  <wpt lat="35.67960" lon="139.75874">
+    <time>2026-02-15T10:01:45Z</time>
+  </wpt>
+  <wpt lat="35.67960" lon="139.75830">
+    <name>皇居外苑</name>
+    <time>2026-02-15T10:01:50Z</time>
+  </wpt>
+
+  <!-- Segment 3: 皇居外苑 → 和田倉噴水公園 (points 24-34, north) -->
+  <wpt lat="35.67994" lon="139.75846">
+    <time>2026-02-15T10:01:55Z</time>
+  </wpt>
+  <wpt lat="35.68027" lon="139.75861">
+    <time>2026-02-15T10:02:00Z</time>
+  </wpt>
+  <wpt lat="35.68061" lon="139.75876">
+    <time>2026-02-15T10:02:05Z</time>
+  </wpt>
+  <wpt lat="35.68094" lon="139.75892">
+    <time>2026-02-15T10:02:10Z</time>
+  </wpt>
+  <wpt lat="35.68128" lon="139.75907">
+    <time>2026-02-15T10:02:15Z</time>
+  </wpt>
+  <wpt lat="35.68162" lon="139.75923">
+    <time>2026-02-15T10:02:20Z</time>
+  </wpt>
+  <wpt lat="35.68195" lon="139.75938">
+    <time>2026-02-15T10:02:25Z</time>
+  </wpt>
+  <wpt lat="35.68229" lon="139.75953">
+    <time>2026-02-15T10:02:30Z</time>
+  </wpt>
+  <wpt lat="35.68262" lon="139.75969">
+    <time>2026-02-15T10:02:35Z</time>
+  </wpt>
+  <wpt lat="35.68296" lon="139.75984">
+    <time>2026-02-15T10:02:40Z</time>
+  </wpt>
+  <wpt lat="35.68330" lon="139.76000">
+    <name>和田倉噴水公園</name>
+    <time>2026-02-15T10:02:45Z</time>
+  </wpt>
+
+  <!-- Segment 4: 和田倉噴水公園 → 東京駅丸の内北口 (points 35-50, east) -->
+  <wpt lat="35.68328" lon="139.76048">
+    <time>2026-02-15T10:02:50Z</time>
+  </wpt>
+  <wpt lat="35.68326" lon="139.76095">
+    <time>2026-02-15T10:02:55Z</time>
+  </wpt>
+  <wpt lat="35.68324" lon="139.76143">
+    <time>2026-02-15T10:03:00Z</time>
+  </wpt>
+  <wpt lat="35.68323" lon="139.76190">
+    <time>2026-02-15T10:03:05Z</time>
+  </wpt>
+  <wpt lat="35.68321" lon="139.76238">
+    <time>2026-02-15T10:03:10Z</time>
+  </wpt>
+  <wpt lat="35.68319" lon="139.76285">
+    <time>2026-02-15T10:03:15Z</time>
+  </wpt>
+  <wpt lat="35.68317" lon="139.76333">
+    <time>2026-02-15T10:03:20Z</time>
+  </wpt>
+  <wpt lat="35.68315" lon="139.76380">
+    <time>2026-02-15T10:03:25Z</time>
+  </wpt>
+  <wpt lat="35.68313" lon="139.76428">
+    <time>2026-02-15T10:03:30Z</time>
+  </wpt>
+  <wpt lat="35.68311" lon="139.76475">
+    <time>2026-02-15T10:03:35Z</time>
+  </wpt>
+  <wpt lat="35.68309" lon="139.76523">
+    <time>2026-02-15T10:03:40Z</time>
+  </wpt>
+  <wpt lat="35.68308" lon="139.76570">
+    <time>2026-02-15T10:03:45Z</time>
+  </wpt>
+  <wpt lat="35.68306" lon="139.76618">
+    <time>2026-02-15T10:03:50Z</time>
+  </wpt>
+  <wpt lat="35.68304" lon="139.76665">
+    <time>2026-02-15T10:03:55Z</time>
+  </wpt>
+  <wpt lat="35.68302" lon="139.76713">
+    <time>2026-02-15T10:04:00Z</time>
+  </wpt>
+  <wpt lat="35.68300" lon="139.76760">
+    <name>東京駅丸の内北口</name>
+    <time>2026-02-15T10:04:05Z</time>
+  </wpt>
+
+</gpx>

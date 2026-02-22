@@ -17,6 +17,14 @@ let package = Package(
             name: "AppResources",
             targets: ["AppResources"]
         ),
+        .library(
+            name: "LocationClient",
+            targets: ["LocationClient"]
+        ),
+        .library(
+            name: "MapFeature",
+            targets: ["MapFeature"]
+        ),
     ],
     dependencies: [
         .package(
@@ -31,12 +39,26 @@ let package = Package(
             name: "AppFeature",
             dependencies: [
                 "AppResources",
+                "MapFeature",
                 .product(name: "ComposableArchitecture", package: "swift-composable-architecture"),
             ]
         ),
         .target(
             name: "AppResources",
             resources: [.process("Resources")]
+        ),
+        .target(
+            name: "LocationClient",
+            dependencies: [
+                .product(name: "ComposableArchitecture", package: "swift-composable-architecture"),
+            ]
+        ),
+        .target(
+            name: "MapFeature",
+            dependencies: [
+                "LocationClient",
+                .product(name: "ComposableArchitecture", package: "swift-composable-architecture"),
+            ]
         ),
 
     ]
